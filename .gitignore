@@ -1,0 +1,18 @@
+# .gitignore
+
+# General
+.DS_Store
+
+# api
+api/node_modules
+api/npm-debug.log
+api/*.env
+api/dist
+api/build
+
+# app
+app/node_modules
+app/npm-debug.log
+app/*.env
+app/dist
+app/build
