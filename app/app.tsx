@@ -11,7 +11,7 @@ const App: React.FC = () => {
   const pc = useRef<RTCPeerConnection | null>(null);
 
   useEffect(() => {
-    const socket = io('http://localhost:5000'); // actualiza esta URL con la de tu servidor
+    const socket = io('http://localhost:5000'); 
 
     pc.current = new RTCPeerConnection(configuration);
 
